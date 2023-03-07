@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content')
-<x-laravel2 dashboard="active" profile="" hanif="" trisinus="" pengalaman="" />
+<x-laravel2 dashboard="active" profile="" hanif="" trisinus="" pengalaman="" kuliah=""/>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <!-- Content Header (Page header) -->

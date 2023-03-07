@@ -3,7 +3,7 @@
 @section('title', 'Kuliah')
 
 @section('content')
-<x-laravel2 dashboard="" profile="" hanif="" trisinus="" pengalaman="active" />
+<x-laravel2 dashboard="" profile="" hanif="" trisinus="" pengalaman="active" kuliah=""/>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
 	<!-- Content Header (Page header) -->
@@ -11,12 +11,12 @@
 		<div class="container-fluid">
 			<div class="row mb-2">
 				<div class="col-sm-6">
-					<h1 class="m-0 text-dark">Contact</h1>
+					<h1 class="m-0">Pengalaman Kuliah</h1>
 				</div><!-- /.col -->
 				<div class="col-sm-6">
 					<ol class="breadcrumb float-sm-right">
-						<li class="breadcrumb-item"><a href="#">Home</a></li>
-						<li class="breadcrumb-item active">Contact</li>
+						<li class="breadcrumb-item"><a href="{{Route('dashboard')}}">Home</a></li>
+						<li class="breadcrumb-item active">Pengalaman Kuliah</li>
 					</ol>
 				</div><!-- /.col -->
 			</div><!-- /.row -->
@@ -26,78 +26,99 @@
 
 	<!-- Main content -->
 	<section class="content">
-		<!-- Custom tabs (Charts with tabs)-->
+		<!-- Default box -->
 		<div class="card">
 			<div class="card-header">
-				<h3 class="card-title">
-					<i class="fas fa-chart-pie mr-1"></i>
-					Pengalaman Selama di Kuliahan
-				</h3>
+				<h3 class="card-title">Kemahasiswaan</h3>
+
 				<div class="card-tools">
-					<ul class="nav nav-pills ml-auto">
-						<li class="nav-item">
-							<a class="nav-link active" href="#revenue-chart" data-toggle="tab"></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#sales-chart" data-toggle="tab"></a>
-						</li>
-					</ul>
+					<button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+						<i class="fas fa-minus"></i>
+					</button>
+					<button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+						<i class="fas fa-times"></i>
+					</button>
 				</div>
-			</div><!-- /.card-header -->
+			</div>
 			<div class="card-body">
-				<!-- Conversations are loaded here -->
-				<div class="direct-chat-messages">
-					<!-- Message. Default to the left -->
-					<div class="direct-chat-msg">
-						<div class="direct-chat-infos clearfix">
-							<span class="direct-chat-name float-left">Hanif Naufal Rafandi</span>
-							<span class="direct-chat-timestamp float-right">hdjjjab</span>
-						</div>
-						<!-- /.direct-chat-infos -->
-						<img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
-						<!-- /.direct-chat-img -->
-						<div class="direct-chat-text">
-							gvhuhhgfatwf
-						</div>
-						<!-- /.direct-chat-text -->
-					</div>
-					<!-- /.direct-chat-msg -->
+				<div class="row">
+					<div class="col-12 col-md-12 col-lg-8 order-2 order-md-1">
+						<div class="row">
+							<div class="col-12">
+								<div class="post">
+									<div class="user-block">
+										<img class="img-circle img-bordered-sm" src="{{asset('AdminLTE-3.0.0')}}/dist/img/trisinus.jpeg" alt="user image">
+										<span class="username">
+											<a href="#"></a>
+										</span>
+										<span class="description">Shared publicly - 8:56 PM today</span>
+									</div>
+									<!-- /.user-block -->
+									<p>
+										Pengalaman Kuliah di Polinema
+									</p>
+								</div>
 
-					<!-- Message to the right -->
-					<div class="direct-chat-msg right">
-						<div class="direct-chat-infos clearfix">
-							<span class="direct-chat-name float-right">Sarah Bullock</span>
-							<span class="direct-chat-timestamp float-left">23 Jan 2:05 pm</span>
-						</div>
-						<!-- /.direct-chat-infos -->
-						<img class="direct-chat-img" src="dist/img/user3-128x128.jpg" alt="message user image">
-						<!-- /.direct-chat-img -->
-						<div class="direct-chat-text">
-							You better believe it!
-						</div>
-						<!-- /.direct-chat-text -->
-					</div>
-					<!-- /.direct-chat-msg -->
+								<div class="post clearfix">
+									<div class="user-block">
+										<img class="img-circle img-bordered-sm" src="{{asset('AdminLTE-3.0.0')}}/dist/img/hanif.jpeg" alt="User Image">
+										<span class="username">
+											<a href="#">Hanif Naufal Rafandi</a>
+										</span>
+										<span class="description">Shared publicly - :30 PM today</span>
+									</div>
+									<!-- /.user-block -->
+									<p>
+										Pengalaman - pengalaman yang telah dilalui saat kuliah di Polinema : <br>
+										1. 
+									</p>
+								</div>
 
-					<!-- Message. Default to the left -->
-					<div class="direct-chat-msg">
-						<div class="direct-chat-infos clearfix">
-							<span class="direct-chat-name float-left">Alexander Pierce</span>
-							<span class="direct-chat-timestamp float-right">23 Jan 5:37 pm</span>
+								<div class="post">
+									<div class="user-block">
+										<img class="img-circle img-bordered-sm" src="{{asset('AdminLTE-3.0.0')}}/dist/img/trisinus.jpeg" alt="user image">
+										<span class="username">
+											<a href="#">Trisinus Gulo</a>
+										</span>
+										<span class="description">Shared publicly - 6 days ago</span>
+									</div>
+									<!-- /.user-block -->
+									<p>
+										Pengalaman - pengalaman yang telah dilalui saat kuliah di Polinema : <br>
+										1.
+									</p>
+								</div>
+							</div>
 						</div>
-						<!-- /.direct-chat-infos -->
-						<img class="direct-chat-img" src="dist/img/user1-128x128.jpg" alt="message user image">
-						<!-- /.direct-chat-img -->
-						<div class="direct-chat-text">
-							Working with AdminLTE on a great new app! Wanna join?
+					</div>
+					<div class="col-12 col-md-12 col-lg-4 order-1 order-md-2">
+						<h3 class="text-primary">Kemahasiswaan Polinema</h3>
+						<p class="text-muted">Tempat para menuntut Ilmu dan mencarai pengalaman serta menjadi seorang mandiri ketika kuliah di polinema.
+							<h5 class="mt-5 text-muted">Link Github Anggota Kelompok</h5>
+							<ul class="list-unstyled">
+								<li>
+									<a href="https://github.com/Elfeny7" class="btn-link text-secondary"></i> hanif : https://github.com/HanifRafandi014/</a>
+								</li>
+								<li>
+									<a href="https://github.com/Arainal0112" class="btn-link text-secondary"></i> Trisinus : https://github.com/Trisinus123</a>
+								</li>
+							</ul>
 						</div>
-						<!-- /.direct-chat-text -->
 					</div>
 				</div>
-			</div><!-- /.card-body -->
-		</div>
-		<!-- /.card -->
-	</section>
-</div>
+				<!-- /.card-body -->
+			</div>
+			<!-- /.card -->
 
+		</section>
+		<!-- /.content -->
+	</div>
+	<!-- /.content-wrapper -->
+	<!-- Control Sidebar -->
+	<aside class="control-sidebar control-sidebar-dark">
+		<!-- Control sidebar content goes here -->
+	</aside>
+	<!-- /.control-sidebar -->
+</div>
+</div>
 @endsection

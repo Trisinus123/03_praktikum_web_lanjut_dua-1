@@ -23,6 +23,7 @@ class laravel2 extends Component {
         $this->hanif = $hanif;
         $this->trisinus = $trisinus;
         $this->kuliah = $kuliah;
+        
     }
 
     /**

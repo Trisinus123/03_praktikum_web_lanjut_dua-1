@@ -11,7 +11,7 @@
   <div class="wrapper">
     @include('layouts.header')
     @yield('content')
-    @include('layout.footer')
+    @include('layouts.footer')
   </div>
   <!-- ./wrapper -->
   @include('layouts.js')
