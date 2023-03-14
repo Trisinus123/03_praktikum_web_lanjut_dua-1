@@ -47,9 +47,9 @@
 							<div class="col-12">
 								<div class="post">
 									<div class="user-block">
-										<img class="img-circle img-bordered-sm" src="{{asset('AdminLTE-3.0.0')}}/dist/img/trisinus.jpeg" alt="user image">
+										<img class="img-circle img-bordered-sm" src="{{asset('profile')}}/trisinus.jpeg" alt="user image">
 										<span class="username">
-											<a href="#"></a>
+											<a href="#">Trisinus Gulo</a>
 										</span>
 										<span class="description">Shared publicly - 8:56 PM today</span>
 									</div>
@@ -61,7 +61,7 @@
 
 								<div class="post clearfix">
 									<div class="user-block">
-										<img class="img-circle img-bordered-sm" src="{{asset('AdminLTE-3.0.0')}}/dist/img/hanif.jpeg" alt="User Image">
+										<img class="img-circle img-bordered-sm" src="{{asset('profile')}}/hanif.jpeg" alt="User Image">
 										<span class="username">
 											<a href="#">Hanif Naufal Rafandi</a>
 										</span>
@@ -76,7 +76,7 @@
 
 								<div class="post">
 									<div class="user-block">
-										<img class="img-circle img-bordered-sm" src="{{asset('AdminLTE-3.0.0')}}/dist/img/trisinus.jpeg" alt="user image">
+										<img class="img-circle img-bordered-sm" src="{{asset('profile')}}/trisinus.jpeg" alt="user image">
 										<span class="username">
 											<a href="#">Trisinus Gulo</a>
 										</span>
@@ -97,10 +97,10 @@
 							<h5 class="mt-5 text-muted">Link Github Anggota Kelompok</h5>
 							<ul class="list-unstyled">
 								<li>
-									<a href="https://github.com/Elfeny7" class="btn-link text-secondary"></i> hanif : https://github.com/HanifRafandi014/</a>
+									<a href="https://github.com/HanifRafandi014/" class="btn-link text-secondary"></i> hanif : https://github.com/HanifRafandi014/</a>
 								</li>
 								<li>
-									<a href="https://github.com/Arainal0112" class="btn-link text-secondary"></i> Trisinus : https://github.com/Trisinus123</a>
+									<a href="https://github.com/Trisinus123" class="btn-link text-secondary"></i> Trisinus : https://github.com/Trisinus123</a>
 								</li>
 							</ul>
 						</div>

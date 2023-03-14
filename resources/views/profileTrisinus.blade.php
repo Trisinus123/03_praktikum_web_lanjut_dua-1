@@ -35,24 +35,24 @@
 					<div class="card card-primary card-outline">
 						<div class="card-body box-profile">
 							<div class="text-center">
-								<img class="profile-user-img img-fluid img-circle" src="{{asset('AdminLTE-3.0.0')}}/dist/img/trisinus.jpeg" alt="User profile picture">
+								<img class="profile-user-img img-fluid img-circle" src="{{asset('profile')}}/trisinus.jpeg" alt="User profile picture">
 							</div>
 
-							<h3 class="profile-username text-center">Trisinus Gulo</h3>
+							<h3 class="profile-username text-center">{{$profile->nama}}</h3>
 
-							<p class="text-muted text-center">Mahasiswa</p>
+							<p class="text-muted text-center">{{$profile->pendidikan}}</p>
 
 							<ul class="list-group list-group-unbordered mb-3">
 								<li class="list-group-item">
-									<b>Kelas</b> <a class="float-right">TI-2G</a>
+									<b>Kelas</b> <a class="float-right">{{$profile->kelas}}</a>
 								</li>
 								<li class="list-group-item">
-									<b>Nomor</b> <a class="float-right">28</a>
+									<b>Nomor</b> <a class="float-right">{{$profile->absen}}</a>
 								</li>
 								<li class="list-group-item">
-									<b>NIM</b> <a class="float-right">2141720035</a>
+									<b>NIM</b> <a class="float-right">{{$profile->nim}}</a>
 								</li>
-								<b>No Hp</b> <a class="float-right">081235487842</a>
+								<b>No Hp</b> <a class="float-right">{{$profile->nohp}}</a>
 							</ul>
 
 
@@ -116,7 +116,7 @@
 									<!-- Post -->
 									<div class="post">
 										<div class="user-block">
-											<img class="img-circle img-bordered-sm" src="{{asset('AdminLTE-3.0.0')}}/dist/img/trisinus.jpeg" alt="user image">
+											<img class="img-circle img-bordered-sm" src="{{asset('profile')}}/trisinus.jpeg" alt="user image">
 											<span class="username">
 												<a href="#">Trisinus Gulo</a>
 												<a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
@@ -143,7 +143,7 @@
 									<!-- /.post -->
 									<div class="post">
 										<div class="user-block">
-											<img class="img-circle img-bordered-sm" src="{{asset('AdminLTE-3.0.0')}}/dist/img/trisinus.jpeg" alt="user image">
+											<img class="img-circle img-bordered-sm" src="{{asset('profile')}}/trisinus.jpeg" alt="user image">
 											<span class="username">
 												<a href="#">Trisinus Gulo</a>
 												<a href="#" class="float-right btn-tool"><i class="fas fa-times"></i></a>
@@ -189,12 +189,12 @@
 										<div class="card-body p-0">
 											<ul class="users-list clearfix">
 												<li>
-													<img src="{{asset('AdminLTE-3.0.0')}}/dist/img/hanif.jpeg" alt="User Image">
+													<img src="{{asset('profile')}}/hanif.jpeg" alt="User Image">
 													<a class="users-list-name" href="#">Hanif Naufal Rafandi</a>
 													<span class="users-list-date">Today</span>
 												</li>
 												<li>
-													<img src="{{asset('AdminLTE-3.0.0')}}/dist/img/trisinus.jpeg" alt="User Image">
+													<img src="{{asset('profile')}}/trisinus.jpeg" alt="User Image">
 													<a class="users-list-name" href="#">Trisinus Gulo</a>
 													<span class="users-list-date">Yesterday</span>
 												</li>

@@ -47,7 +47,7 @@
 										</ul>
 									</div>
 									<div class="col-5 text-center">
-										<img src="{{asset('AdminLTE-3.0.0')}}/dist/img/hanif.jpeg" alt="user-avatar" class="img-circle img-fluid">
+										<img src="{{asset('profile')}}/hanif.jpeg" alt="user-avatar" class="img-circle img-fluid">
 									</div>
 								</div>
 							</div>
@@ -79,7 +79,7 @@
 										</ul>
 									</div>
 									<div class="col-5 text-center">
-										<img src="{{asset('AdminLTE-3.0.0')}}/dist/img/trisinus.jpeg" alt="user-avatar" class="img-circle img-fluid">
+										<img src="{{asset('profile')}}/trisinus.jpeg" alt="user-avatar" class="img-circle img-fluid">
 									</div>
 								</div>
 							</div>
