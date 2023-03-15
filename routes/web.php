@@ -16,8 +16,9 @@ use App\Http\Controllers\ContactController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('/', [App\Http\Controllers\DashboardController::class, 'redirect']);
 Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
-Route::get('/profile/{slug}', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
+Route::get('/profile/{slug?}', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
 Route::get('/pengalaman-kuliah', [App\Http\Controllers\KuliahController::class, 'index'])->name('kuliah');
 Route::get('/contact', [App\Http\Controllers\ContactController::class, 'index'])->name('contact');

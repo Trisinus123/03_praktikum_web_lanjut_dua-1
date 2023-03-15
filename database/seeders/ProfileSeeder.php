@@ -40,3 +40,4 @@ class ProfileSeeder extends Seeder
         DB::table('profile')->insert($data);
     }
 }
+
