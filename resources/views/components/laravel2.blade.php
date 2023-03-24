@@ -55,13 +55,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{Route('profile', ['nim'=>'hanif'])}}" class="nav-link {{$hanif}}">
+                <a href="{{Route('profile', ['slug'=>'hanif'])}}" class="nav-link {{$hanif}}">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Hanif Naufal Rafandi</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{Route('profile', ['nim'=>'trisinus'])}}" class="nav-link {{$trisinus}}">
+                <a href="{{Route('profile', ['slug'=>'trisinus'])}}" class="nav-link {{$trisinus}}">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Trisinus Gulo</p>
                 </a>
@@ -77,7 +77,7 @@
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
-          </li> 
+          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

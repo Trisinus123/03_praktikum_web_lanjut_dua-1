@@ -55,7 +55,7 @@
 									</div>
 									<!-- /.user-block -->
 									<p>
-										Pengalaman Kuliah di Polinema
+										Pengalaman Kuliah selama di Polinema :
 									</p>
 								</div>
 
@@ -70,7 +70,11 @@
 									<!-- /.user-block -->
 									<p>
 										Pengalaman - pengalaman yang telah dilalui saat kuliah di Polinema : <br>
-										1. 
+										1. Mengerjakan project dan tugas besar dengan inovasi yang baik <br>
+										2. Mencoba hal baru di luar perkuliahan untuk menambah pengetahuan si bidang teknologi <br>
+										3. Berdiskusi dengan teman sejurusan / berbeda jurusan dengan membahas permasalahan yang sama <br>
+										4. Mencari informasi baru di dalam maupun di luar kampus untuk mendapatkan informasi yang jarang diketahui banyak mahasiswa <br>
+										5. Menyelesaikan permasalahan akademis secara mandiri dan bisa mengetahui penyebab terjadinya error tersebut <br>
 									</p>
 								</div>
 
