@@ -10,6 +10,9 @@
     <li class="nav-item d-none d-sm-inline-block">
       <a href="{{Route('contact')}}" class="nav-link">Contact</a>
     </li>
+    <li class="nav-item d-none d-sm-inline-block">
+      <a href="{{Route('home')}}" class="nav-link">Info User</a>
+    </li>
   </ul>
 
   <!-- SEARCH FORM -->
@@ -111,11 +114,41 @@
         <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
       </div>
     </li>
+
     <li class="nav-item">
       <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#">
         <i class="fas fa-th-large"></i>
       </a>
     </li>
-  </ul>
+
+    @auth
+    <li class="nav-item d-none d-sm-inline-block">
+      <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();
+      document.getElementById('logout-form').submit();">
+      <i class="nav-icon far fa-circle text-danger"></i>
+      {{-- {{ __('Logout') }} --}}
+      <p>
+        Logout
+      </p>
+    </a>
+
+    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+      @csrf
+    </form>
+  </li>
+  @endauth 
+
+
+  <div class="row mb-0">
+    <div class="col-md-8 offset-md-4">
+      <button type="submit" class="btn btn-info" style="margin-right: 8px" onclick="window.location.href='{{ route('home') }}'">
+        {{ __('Login') }}
+      </button>
+      <button type="submit" class="btn btn-info" onclick="window.location.href='{{ route('register') }}'">
+        {{ __('Register') }}
+      </button>
+    </div>
+  </div>
+</ul>
 </nav>
 <!-- /.navbar -->
